@@ -7,7 +7,7 @@
 
 // This file supports both iOS and Android
 
-var RNFSManager = require('react-native').NativeModules.RNFSManager;
+var RNFSManager = require('./NativeRNFSManager');
 
 var NativeEventEmitter = require('react-native').NativeEventEmitter;
 
